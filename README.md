@@ -1,2 +1,3 @@
 # cuddly-cuddles
-Just starting out
+This is fun! I hope my knowledge will be useful very soon!
+
