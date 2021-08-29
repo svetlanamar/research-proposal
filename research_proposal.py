@@ -9,9 +9,9 @@ answer = str(input())
 if answer == 'Yes' or 'yes' or 'yeah':
         print ("You didn't lie!")
 elif answer == "yfdtfghjk":
-        print ("You can't even give us a coherent answer!")
+        print ("Why don't you give us a definitive answer?")
 else: 
-        print ("You live to lie, don't you?")
+        print ("Why not?")
         
 
 print ("Do you wish to take take part in my research?")
@@ -24,16 +24,16 @@ assert isinstance (research_list, list)
 for item in research_list:
    if item == research:
 	    match = item
-	    print ("You got all the time in the world to think, my friend! Take care. ")
+	    print ("You got all the time in the world to think! Take care. ")
    else:
-                    print ("Is that a yes that I've heard?!I hope to persuade you.")
+                    print ("Is that a yes?")
                     yes_answer = input()
                     yes_answer_list = ["Yes", "yes", "ja", "yeah", "yeah!", "yeah " "yes ", "Yes ", "Yes..."]
                     assert isinstance (yes_answer_list, list)
                     for item in yes_answer_list:
                             if item == yes_answer:
                                     match = item
-                                    print ("Thank you! I can't stop expressing my gratitide! Help...")
+                                    print ("Thank you! I can't stop expressing my gratitide!")
 
            
         
